@@ -16,15 +16,15 @@ Create a `.env` file in the project root with the following variables:
 ```**Example:**
 SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
 WALLET_SECRET_KEY=Your_Wallet_Privatekey
-BASE_MINT=2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv
-QUOTE_MINT=So11111111111111111111111111111111111111112
+BASE_MINT=
+QUOTE_MINT=
 BASE_DECIMALS=9
 QUOTE_DECIMALS=6
 INITIAL_BASE=10 // UI amounts, not lamports
 INITIAL_QUOTE=0.001 // UI amounts, not lamports
 ADD_LIQ_AMOUNT=0.001 // UI amounts, not lamports
 WITHDRAW_LP_AMOUNT=0.001 // UI amounts, not lamports
-POOL_INDEX
+POOL_INDEX=0
 ```
 Replace the values with your own configuration.
 
@@ -52,3 +52,6 @@ Replace the values with your own configuration.
 [https://solscan.io/tx/2EhhZigxynH1rfAT7NRFmf37jSihPPBTYrcsaDddP9gjq4kBkrCL7LyFc7ATuxtFkcEMJfmdpF8jBidXpNxkf9Yi](https://solscan.io/tx/2EhhZigxynH1rfAT7NRFmf37jSihPPBTYrcsaDddP9gjq4kBkrCL7LyFc7ATuxtFkcEMJfmdpF8jBidXpNxkf9Yi)
 ### WithdrawLiqTx:
 [https://solscan.io/tx/3UX1A7TuiZWvFs5b4cdJgKG9me9WkV5ufN5bvkNGrbWRqLNHptQAWhXVuHyjCC6DFmV5PeqKnsyGoaePDc4fR5Wj](https://solscan.io/tx/3UX1A7TuiZWvFs5b4cdJgKG9me9WkV5ufN5bvkNGrbWRqLNHptQAWhXVuHyjCC6DFmV5PeqKnsyGoaePDc4fR5Wj)
+
+## Contact
+For a new feature integration, you can contact [me](https://t.me/idioRusty) on the Telegram
