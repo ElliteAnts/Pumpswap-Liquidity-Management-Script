@@ -1,4 +1,4 @@
-# PumpSwap Pool Scripts
+# PumpSwap Liquidity Management Scripts
 
 This repository contains TypeScript scripts for interacting with the [PumpSwap](https://pump.fun/) AMM protocol on Solana. The scripts allow you to create a pool, add liquidity, and withdraw liquidity using environment variables for configuration.
 
