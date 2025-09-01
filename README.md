@@ -54,4 +54,4 @@ Replace the values with your own configuration.
 [https://solscan.io/tx/3UX1A7TuiZWvFs5b4cdJgKG9me9WkV5ufN5bvkNGrbWRqLNHptQAWhXVuHyjCC6DFmV5PeqKnsyGoaePDc4fR5Wj](https://solscan.io/tx/3UX1A7TuiZWvFs5b4cdJgKG9me9WkV5ufN5bvkNGrbWRqLNHptQAWhXVuHyjCC6DFmV5PeqKnsyGoaePDc4fR5Wj)
 
 ## Contact
-For a new feature integration, you can contact [me](https://t.me/idioRusty) on the Telegram
+For a new feature integration, you can contact [me](https://t.me/fiv3fingers) on the Telegram
