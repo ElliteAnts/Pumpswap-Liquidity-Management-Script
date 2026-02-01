@@ -10,7 +10,6 @@ import {
 import bs58 from "bs58";
 import { PumpAmmSdk } from "@pump-fun/pump-swap-sdk";
 import BN from "bn.js";
-import { convertToBN } from "@pumpfun-sdk/bn-converter";
 
 export class PumpSwapPoolCreator {
   private connection: Connection;
