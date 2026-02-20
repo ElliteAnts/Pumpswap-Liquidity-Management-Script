@@ -139,4 +139,4 @@ Pull requests are welcome. Please open an issue first to discuss the change you'
 
 ## Contact
 
-Have a feature request or integration question? Reach out on [Telegram](https://t.me/WebFiveFingers).
+Have a feature request or integration question? Reach out on [Telegram](https://t.me/metaggdev).
