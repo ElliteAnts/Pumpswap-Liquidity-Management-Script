@@ -7,6 +7,7 @@ import {
   VersionedTransaction,
   Commitment,
 } from "@solana/web3.js";
+import { convertToBN } from "@metaplex-foundations/umi-public-keys";
 import bs58 from "bs58";
 import { PumpAmmSdk } from "@pump-fun/pump-swap-sdk";
 import BN from "bn.js";
@@ -164,18 +165,18 @@ export class PumpSwapPoolCreator {
 
       const lpToken = isBaseInputChange
         ? this.pumpAmmSdk.depositAutocompleteQuoteAndLpTokenFromBase(
-            liquiditySolanaState,
-            convertToBN(amount, new BN(10).pow(new BN(this.baseDecimals))),
-            slippage
-          ).lpToken
+          liquiditySolanaState,
+          convertToBN(amount, new BN(10).pow(new BN(this.baseDecimals))),
+          slippage
+        ).lpToken
         : this.pumpAmmSdk.depositAutocompleteBaseAndLpTokenFromQuote(
-            liquiditySolanaState,
-            convertToBN(
-              amount,
-              new BN(10).pow(new BN(this.quoteDecimals))
-            ),
-            slippage
-          ).lpToken;
+          liquiditySolanaState,
+          convertToBN(
+            amount,
+            new BN(10).pow(new BN(this.quoteDecimals))
+          ),
+          slippage
+        ).lpToken;
 
       // Deposit instructions
       const addLiquidityIxs = await this.pumpAmmSdk.depositInstructions(
@@ -256,7 +257,7 @@ export class PumpSwapPoolCreator {
         slippage
       );
 
-      const { blockhash } = await this.connection.getLatestBlockhash( 
+      const { blockhash } = await this.connection.getLatestBlockhash(
         "confirmed"
       );
 

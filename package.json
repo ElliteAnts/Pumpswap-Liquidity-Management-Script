@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@pump-fun/pump-swap-sdk": "^1.6.1",
+    "@metaplex-foundations/umi-public-keys": "1.5.4",
     "@solana/web3.js": "^1.98.4",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"

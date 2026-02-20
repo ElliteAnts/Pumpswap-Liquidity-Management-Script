@@ -53,10 +53,10 @@ cp .env.sample .env
 |----------|-------------|---------|
 | `SOLANA_RPC_URL` | Solana RPC endpoint | `https://api.mainnet-beta.solana.com` |
 | `WALLET_SECRET_KEY` | Base-58 private key of your wallet | `Your_Wallet_Privatekey` |
-| `BASE_MINT` | Mint address of the base token | *(your token mint)* |
-| `QUOTE_MINT` | Mint address of the quote token | *(e.g. SOL wrapped mint)* |
-| `BASE_DECIMALS` | Decimal places of the base token | `9` |
-| `QUOTE_DECIMALS` | Decimal places of the quote token | `6` |
+| `BASE_MINT` | Mint address of the base token | *(your token mint. e.g. 2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv)* |
+| `QUOTE_MINT` | Mint address of the quote token | *(e.g. So11111111111111111111111111111111111111112)* |
+| `BASE_MINT_DECIMALS` | Decimal places of the base token | `9` |
+| `QUOTE_MINT_DECIMALS` | Decimal places of the quote token | `6` |
 | `INITIAL_BASE` | Initial base amount when creating a pool (UI units) | `10` |
 | `INITIAL_QUOTE` | Initial quote amount when creating a pool (UI units) | `0.001` |
 | `ADD_LIQ_AMOUNT` | Quote amount to add on deposit (UI units) | `0.001` |

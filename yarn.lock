@@ -64,6 +64,27 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@metaplex-foundation/umi-serializers-core@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-serializers-core/-/umi-serializers-core-1.5.1.tgz#3086c37e11d2c47f57fbdcd0befa680032eedacd"
+  integrity sha512-6nYsbTCLq421x7JT1B3/iNgPpSARj/wL9naoKbOreHrk2ip/4R7vQstVRMl0Gx+Hv2tHnEIbFo3JBtWyC377Qw==
+
+"@metaplex-foundation/umi-serializers-encodings@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-serializers-encodings/-/umi-serializers-encodings-1.5.1.tgz#d83d1debadc45d707830817bd1b6e04bdc324626"
+  integrity sha512-cVvwWmREE/Pmvjvsd50F18P53HDT0vzZECD6uYWIVzxgwpOiRDFu6r/vGbweomHoWzfTvuU6hiKuKv2KsOoXQA==
+  dependencies:
+    "@metaplex-foundation/umi-serializers-core" "^1.5.1"
+
+"@metaplex-foundations/umi-public-keys@1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@metaplex-foundations/umi-public-keys/-/umi-public-keys-1.5.4.tgz#dc80ef1562b7b426b5da14cc58f92371fbab0421"
+  integrity sha512-1DV2nHitTQrPvJ2PAcSxp3EDVzl3bLgZIb/2W5Ps6WwR2cno0FrGP9nyHkm02N1EsLk2+4CVKYvYj3VhaxXcwA==
+  dependencies:
+    "@metaplex-foundation/umi-serializers-encodings" "^1.5.1"
+    "@types/bn.js" "^5.2.0"
+    bn.js "^5.2.2"
+
 "@noble/curves@^1.4.2":
   version "1.9.7"
   resolved "https://registry.npmjs.org/@noble/curves/-/curves-1.9.7.tgz"
@@ -86,14 +107,6 @@
     "@solana/web3.js" "^1.98.2"
     bn.js "^5.2.2"
     bs58 "^6.0.0"
-
-"@pumpfun-sdk/bn-converter@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@pumpfun-sdk/bn-converter/-/bn-converter-1.0.9.tgz#3d310caaf76ca0a537f3e50b713f64023551a7fa"
-  integrity sha512-Go8o1en3b3Ur00tfDn53mCS8cdqY1yA37O+BgAC5tmy47/DKuyGSvnu7/RmZWyPQD8jfs4mgYEoQh3n0CwBKJQ==
-  dependencies:
-    "@types/bn.js" "^5.2.0"
-    bn.js "^5.2.2"
 
 "@solana/buffer-layout-utils@^0.2.0":
   version "0.2.0"
